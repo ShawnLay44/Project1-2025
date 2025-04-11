@@ -17,7 +17,7 @@ def pressed(button):
 
 right_button.when_pressed = pressed
 left_button.when_pressed = pressed
-
+exit() 
 if button.pin.number == 14:
 	print(left_name + 'won the game')
 else:
