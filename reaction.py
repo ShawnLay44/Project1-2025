@@ -28,9 +28,20 @@ while i>0:
    right_button.when_pressed = pressed
    left_button.when_pressed = pressed
 
+<<<<<<< HEAD
    sleep(2)
 print("Game ovr")
 if player1>player2:
    print(left_name + ' won the game')
 else:
     print(right_name + ' won the game')
+=======
+if button.pin.number == 14:
+	print(left_name + 'won the game')
+else:
+	print(right_name + 'won the game')
+	exit()
+
+right_button.when_pressed = pressed
+left_button.when_pressed = pressed
+>>>>>>> ae75950ed13e8b5e57bea73502a8b7a5042e3732
